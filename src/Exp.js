@@ -96,8 +96,8 @@ module.exports = function Exp(formula) {
                     }
                 }
                 catch (e) {
-                    // console.log('[Exp.js] - ' + formula.name + ': evaluating ' + formula.cell.f + '\n' + e.message);
-                    throw e;
+                    console.log('[Exp.js] - ' + formula.name + ': evaluating ' + formula.cell.f + '\n' + e.message);
+                    // throw e;
                 }
             }
         }
